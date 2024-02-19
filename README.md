@@ -1,24 +1,23 @@
-![GitHub License](https://img.shields.io/github/license/nicosharpe/blah blah)
+![GitHub License](https://img.shields.io/github/license/nicosharpe/professional-readme-generator)
 
-  # blah blah
+  # professional-readme-generator
 
-  blah
+  A professional README generator that uses the Inquirer npm package to ask the user questions in the termial and use the answers to fill out the readme.
 
   # Table of Contents
-  [License](https://github.com/nicosharpe/readme#license)
+  [License](https://github.com/nicosharpe/professional-readme-generator?tab=readme-ov-file#license)
 
-  [Installation](https://github.com/nicosharpe/readme#installation)
+  [Installation](https://github.com/nicosharpe/professional-readme-generator?tab=readme-ov-file#installation)
 
-  [Usage](https://github.com/nicosharpe/readme#usage)
+  [Usage](https://github.com/nicosharpe/professional-readme-generator?tab=readme-ov-file#usage)
 
-  [Contributions](https://github.com/nicosharpe/readme#contributions)
+  [Contributions](https://github.com/nicosharpe/professional-readme-generator?tab=readme-ov-file#contributions)
 
-  [Tests](https://github.com/nicosharpe/readme#tests)
+  [Tests](https://github.com/nicosharpe/professional-readme-generator?tab=readme-ov-file#tests)
 
-  [Questions](https://github.com/nicosharpe/readme#questions)
+  [Questions](https://github.com/nicosharpe/professional-readme-generator?tab=readme-ov-file#questions)
 
   
-
   # License
 
   MIT License
@@ -33,11 +32,11 @@
 
   # Usage
 
-  nothing
+  You will need to run and answer the questions using the terminal in VS code or equivalent.
 
   # Contributions
 
-  nothing
+  If you would like to contibute hit me up, my info is in the questions section of this README
 
 
   # Questions
@@ -46,7 +45,8 @@
   
   nicosharpe (https://github.com/nicosharpe/)
 
-  Or you can send me a message via email:
+  Alternatively, you can send me a message via email:
+
   nicolesharpe11@gmail.com
   
   

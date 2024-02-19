@@ -67,20 +67,19 @@ const generateREADME = (answers) =>
   ${answers.description}
 
   # Table of Contents
-  [License](https://github.com/${answers.username}/readme#license)
+  [License](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#license)
 
-  [Installation](https://github.com/${answers.username}/readme#installation)
+  [Installation](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#installation)
 
-  [Usage](https://github.com/${answers.username}/readme#usage)
+  [Usage](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#usage)
 
-  [Contributions](https://github.com/${answers.username}/readme#contributions)
+  [Contributions](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#contributions)
 
-  [Tests](https://github.com/${answers.username}/readme#tests)
+  [Tests](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#tests)
 
-  [Questions](https://github.com/${answers.username}/readme#questions)
+  [Questions](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#questions)
 
   
-
   # License
 
   ${answers.license}
@@ -108,7 +107,8 @@ const generateREADME = (answers) =>
   
   ${answers.username} (https://github.com/${answers.username}/)
 
-  Or you can send me a message via email:
+  Alternatively, you can send me a message via email:
+
   ${answers.email}
   
   `;
