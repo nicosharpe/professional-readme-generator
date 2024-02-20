@@ -1,8 +1,10 @@
+(This README was created using this application. So here's what it will look like!)
+
+
 ![GitHub License](https://img.shields.io/github/license/nicosharpe/professional-readme-generator)
 
   # professional-readme-generator
-(This README was created using this application. So here's what it will look like!)
-
+  
   A professional README generator that uses the Inquirer npm package to ask the user questions in the termial and use the answers to fill out the readme.
 
   # Table of Contents
