@@ -1,5 +1,7 @@
 (This README was created using this application. So here's what it will look like!)
 
+and heres a walkthrough vid on how to use it: https://youtu.be/eNJ2XewNh8Y
+
 
 
 ![GitHub License](https://img.shields.io/github/license/nicosharpe/professional-readme-generator)
