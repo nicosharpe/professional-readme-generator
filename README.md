@@ -6,7 +6,7 @@
 
   # professional-readme-generator
   
-  A professional README generator that uses the Inquirer npm package to ask the user questions in the termial and use the answers to fill out the readme.
+  A professional README generator that uses the Inquirer npm package to ask the user questions in the termial and use the answers to fill out the readme, including a badge at the top specifying which license you have used for your project.
 
   # Table of Contents
   [License](https://github.com/nicosharpe/professional-readme-generator?tab=readme-ov-file#license)
