@@ -5,8 +5,6 @@ const { makeBadge, ValidationError } = require('badge-maker')
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
-
-
 const promptUser = () =>
   inquirer.prompt([
     {
@@ -67,34 +65,39 @@ const generateREADME = (answers) =>
   ${answers.description}
 
   # Table of Contents
+  
   [License](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#license)
 
   [Installation](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#installation)
+
+  [Tests](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#tests)
 
   [Usage](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#usage)
 
   [Contributions](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#contributions)
 
-  [Tests](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#tests)
-
   [Questions](https://github.com/${answers.username}/${answers.title}?tab=readme-ov-file#questions)
 
-  
+
   # License
 
   ${answers.license}
+
 
   # Installation
 
   To install the dependencies needed in your coding software in order to use this generator, simply type ${answers.installation} into your terminal and press enter.
 
+
   # Tests
 
   To test if the packages are working, type ${answers.tests} into your terminal and press enter.
 
+
   # Usage
 
   ${answers.usage}
+
 
   # Contributions
 
@@ -117,5 +120,4 @@ promptUser()
   .then((answers) => writeFileAsync('README.md', generateREADME(answers)))
   .then(() => console.log('Successfully wrote README.md'))
   .catch((err) => console.error(err));
-
 
