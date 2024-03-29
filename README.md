@@ -8,7 +8,7 @@ and heres a walkthrough vid on how to use it: https://youtu.be/eNJ2XewNh8Y
 
   # professional-readme-generator
   
-  A professional README generator that uses the Inquirer npm package to ask the user questions in the termial and use the answers to fill out the readme, including a badge at the top specifying which license you have used for your project.
+  A professional README generator that uses the Inquirer npm package to ask the user questions in the VScode (or similar) terminal, then uses the answers to fill out the readme, including a badge at the top specifying which license you have used for your project.
 
   # Table of Contents
   
